@@ -1,92 +1,89 @@
 # Farmbot
 1) Idea
-Plants are extremely essential to human life and without them the earth would be inhabitable. Our goal was to create a project that, on a small and achievable scale, helps increase or achieve sustained greenery. Water is the most crucial element a plant needs to survive, and so we decided that our project should revolve around plants and their need for water.
+Farmers are the cornerstone of the Indian economy; ideally, they should have the best resources. Yet, for farmers, the task of cultivating healthy crops is fraught with challenges, one of the most significant being the lack of precise methods to monitor and manage agricultural needs. Inconsistent measurements for soil health, moisture levels, and other critical factors often lead to wasted resources and reduced yields. Our goal was to create a project that, on a small and achievable scale, addresses this issue by empowering farmers with tools to make informed decisions, ultimately contributing to sustained greenery and agricultural success.
 
-Problem Statement
-Whether someone lives in a huge mansion or a business flat, potted plants are always customary. Both our mothers adore sheltering lots of potted plants in our homes. And everyone in the family forgets to water them on a quotidian basis. Thus, we decided to create a device which can remind us to water plants every day.
+2) Problem Statement
+Farmers face significant challenges in maintaining consistent soil moisture levels, which are critical for plant growth. Manual monitoring is labor-intensive, and over-irrigation or under-irrigation can lead to reduced crop yields and wastage of resources. The lack of accessible, affordable, and automated solutions further exacerbates this issue, particularly for small-scale farmers.  
 
-SDGs in play
-SDG 15 -- Life on land SDG 13 -- Climate Actions
+3) SDGs in play
+SDG 15 -- Life on land
+SDG 13 -- Climate Actions
 
-Constraints
-The device had to be waterproof. All circuitries should be enclosed.
+5) Constraints
+   
+a) Power Supply Limitations: Ensuring a reliable and portable power source to sustain the device’s operations, especially in remote farming areas with limited access to electricity.
 
-It had to be portable, so that it would be easy to stick into any potted plant.
+b) Material Durability: The PVC chassis and 3D-printed body must withstand environmental factors such as moisture, temperature changes, and potential mechanical stress in the field.
 
-It had to be sturdy and durable, to withstand pressures from watering of the plant.
+c) Sensor Accuracy: Soil moisture sensors must provide precise and consistent readings, which may vary due to soil type, composition, and environmental conditions.
 
-It should be aesthetically appealing as an ugly circuit inside a plant is never appreciated.
+d) Maintenance Requirements: The mechanism for dipping the sensor and cleaning it needs to be robust, requiring minimal maintenance and preventing sensor wear over time.
 
-It must be able to stand in the soil without support.
+e) Ease of Assembly and Repair: The design should allow for easy assembly and repair, enabling farmers or technicians to address issues without specialized tools or skills.
 
-Solutions Brainstorming
-We produced many ideas such as using certain thresholds to determine the amount of water the plant would need, based on the surrounding’s temperature and humidity. Creating solar powered self-watering mechanisms and creating an app that will gamify the process of watering plants. But in the end, we decided on a device that judges whether a plant needs water or not from the basis of its soil moisture readings. Initially we had decided on a prototype with a buzzer generating different sounds to signal as to whether the plant is thirsty or not. But after talking to mentors like Naveen from Phy Farms and Anirudh Shukla we gained multifarious user insights and then finalized on a more complete method of communication between the user and the plant – Messaging and LEDs.
+f) Environmental Compatibility: The materials and operation should be environmentally friendly, ensuring that the device does not contribute to soil contamination or excessive energy consumption.
 
-Final Solution
-Name of the project
+5) Solutions Brainstorming
+While brainstorming this idea, we aimed to create a practical solution that addresses a real challenge farmers face—data analysis for the best effective yield for the plants. We wanted to create a device that combined simplicity with functionality, leveraging PVC pipes for a lightweight yet sturdy chassis and a 3D-printed body for customization and durability. We focused on developing a mechanism for the soil moisture sensor to dip into the soil, try to self-clean, and repeat the process. The goal was to design something affordable, easy to assemble, and reliable in tough agricultural environments. This process required balancing creativity with practicality, ensuring the idea was both innovative and achievable.
 
-The WaterMinder
+6) Final Solution
 
-As a compound word from Reminder and Water, as it reminds you to water your plants.
+Name of the project- Farmbot
 
-Design process
+As a compound word from Farmer's and Robot, as it resembles a machine capable of finding exact data for the farmer's benefit. 
 
-The device would have the shape of a flower. Which looks attractive as well as shelters controllers and circuitries inside the petal structures. The soil moisture sensor would be placed at the bottom tip of the stem which would then go into the soil. A leaf attached to the stem would act as a cover and outlet for the power cable. This flower casing was made from 5 mm transparent acrylic cut in the laser cutter. Two pieces were then screwed together to form a 3-D case.
+7) Design process
 
-ESP8266 CODE
+Our design emphasizes a lightweight and durable chassis made from PVC pipes, providing a cost-effective and versatile framework for the device. Complementing the chassis is a 3D-printed body, allowing for intricate and customizable features. The soil moisture sensor is strategically mounted at the base, ensuring optimal contact with the soil during operation. The 3D-printed structure not only houses and protects the controllers and circuitry but also includes a designated compartment for cable management, ensuring both functionality and aesthetic appeal. This combination of PVC and 3D-printed materials enhances the device's durability and accessibility while keeping it lightweight and visually appealing.
+
+ESP32 CODE
 
 All versions of our codes through the process of prototyping have been attached in the Source Files section.
 
-Materials and machines used
+8) Materials and machines used- 
 
-Materials
+PVC Pipes
 
-Bread board
+Breadboard
 
-Buzzer
+3D Printing Filament
 
-Arduino uno
+ESP32
 
-PCB Zero Board
+DC Motors
 
-ESP8266
+Moisture level sensors
 
-Red Blinking LEDs
+Power Supply(DC Adapter/9V Battery)
 
-Clear acrylic
+Jumper Cables
 
-Soil moisture controller
+3D Printer(for printing)
 
-Soil moisture sensor
+Laser Cutter
 
-Female to female jumper wires
+Soldering Kit
 
-Potted plant
+Screwdrivers and Screws
 
-Solder
-
-Tools
-
-Wire clippers
+Drill and Wire Cutters
 
 Scissors
 
-Machines
+Adhesives
 
-Solder iron
+Paint
 
-Laser cutter
+Bolts and Nuts
 
-Drill Machines
+9) Skills used
 
-Skills used
+This project involved a blend of technical and creative skills. Mechanical design skills were crucial for planning and assembling the PVC pipe chassis and creating the 3D-printed body. Electronics and circuit design skills were applied to integrate the soil moisture sensor, motor drivers, and microcontroller. Programming skills were used to write and debug the code for automating the sensor's dipping and cleaning mechanism. Additionally, 3D modelling and printing expertise ensured the precise fabrication of custom components. Problem-solving and brainstorming were key to overcoming design constraints, while teamwork and effective communication helped in collaboratively refining the project.
 
-Throughout the project we were able utilise various skills we learnt over the course of the past year in our online as well offline skill building sessions. When we were creating the first prototype of the project, we used the Arduino UNO to connect various devices and we used the circuit making skills we had learnt in the Electronics and Robotics class. Along with that, we also had to code and make modifications to various libraries used in the program to code the sensor to give us the required output. We used our IoT skills to connect using Adafruit.IO and IFTTT to allow ESP8266 to broadcast through telegram. We also got a head start on our PCB course as we learnt how to use PCB Zero and soldering to make a compact, breadboard-less, version of our device. While designing the flower-based outer casing for our device, all the CAD lessons we had taken came handy. We made the 3-D outcome of our casing before laser cutting it to avoid any mistakes. While putting together the final project we also got to use power tools such as the driller to hold it in place. To sum up, all the skill building courses helped us create this final prototype in a way that would have been impossible to even think of before.
+10) Challenges faced and solutions
 
-Challenges faced and solutions
+One of the biggest challenges was designing a mechanism that allowed the soil moisture sensor to dip into the soil, clean itself, and repeat the cycle reliably. Initial designs were either too complex or prone to mechanical failure, requiring several iterations before achieving a robust solution.
 
-Facing challenges had become part of our daily routine during the making of this project. Since a huge part of our project depended on the soil moisture sensor, we first started working on coding and programming for it, and already we had met our first hurdle. We had failed to understand the soil moisture sensor. It worked on the principle that for zero moisture it gives a reading of maximum value of 10-bit ADC, that is 1023. Hence, we were very confused when our dry soil gave reading of 1000+. After doing research we realised the blunder that we made.
+Another hurdle was ensuring the PVC pipe chassis was lightweight yet sturdy enough to support the device’s components. Aligning the 3D-printed parts with the PVC frame posed precision challenges during assembly.
 
-The next issue we faced was deciding what way we wanted to communicate with the user that their soil moisture was low. We started with using a buzzer that produced a loud annoying repetitive noise to draw their attention. We soon realised this would be regressive as it would annoy the user. And then, we decided to use a technological solution – sending messages via an ESP8266.
-
-Once we jumped to the idea, we first decided to send messaged through WhatsApp only to discover that WhatsApp API was difficult to find. We even tried sending the alerts to the user through notifications using Blynk IoT. But after talking to the mentors, we realised we could stick to our first idea of sending messages by simply changing the platform to telegram as its API was easily accessible through IFTTT. And thus, we came to our final project.
+Programming the microcontroller was also a test of patience, as unexpected bugs disrupted the automation process, particularly in synchronizing the dipping and cleaning functions. Additionally, sourcing durable yet affordable materials while staying within the budget was a significant constraint.
