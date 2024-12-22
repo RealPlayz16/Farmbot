@@ -1,15 +1,18 @@
 # Farmbot
 1) Idea
+   
 Farmers are the cornerstone of the Indian economy; ideally, they should have the best resources. Yet, for farmers, the task of cultivating healthy crops is fraught with challenges, one of the most significant being the lack of precise methods to monitor and manage agricultural needs. Inconsistent measurements for soil health, moisture levels, and other critical factors often lead to wasted resources and reduced yields. Our goal was to create a project that, on a small and achievable scale, addresses this issue by empowering farmers with tools to make informed decisions, ultimately contributing to sustained greenery and agricultural success.
 
-2) Problem Statement
+3) Problem Statement
+   
 Farmers face significant challenges in maintaining consistent soil moisture levels, which are critical for plant growth. Manual monitoring is labor-intensive, and over-irrigation or under-irrigation can lead to reduced crop yields and wastage of resources. The lack of accessible, affordable, and automated solutions further exacerbates this issue, particularly for small-scale farmers.  
 
-3) SDGs in play
+5) SDGs in play
+   
 SDG 15 -- Life on land
 SDG 13 -- Climate Actions
 
-5) Constraints
+7) Constraints
    
 a) Power Supply Limitations: Ensuring a reliable and portable power source to sustain the device’s operations, especially in remote farming areas with limited access to electricity.
 
@@ -24,9 +27,10 @@ e) Ease of Assembly and Repair: The design should allow for easy assembly and re
 f) Environmental Compatibility: The materials and operation should be environmentally friendly, ensuring that the device does not contribute to soil contamination or excessive energy consumption.
 
 5) Solutions Brainstorming
+   
 While brainstorming this idea, we aimed to create a practical solution that addresses a real challenge farmers face—data analysis for the best effective yield for the plants. We wanted to create a device that combined simplicity with functionality, leveraging PVC pipes for a lightweight yet sturdy chassis and a 3D-printed body for customization and durability. We focused on developing a mechanism for the soil moisture sensor to dip into the soil, try to self-clean, and repeat the process. The goal was to design something affordable, easy to assemble, and reliable in tough agricultural environments. This process required balancing creativity with practicality, ensuring the idea was both innovative and achievable.
 
-6) Final Solution
+7) Final Solution
 
 Name of the project- Farmbot
 
